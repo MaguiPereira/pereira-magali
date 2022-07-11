@@ -1,0 +1,185 @@
+*{box-sizing: border-box;}
+
+body{font-family:'Rubik', sans-serif;}
+
+.contenedor{width: 1140px; margin: 0 auto;}
+
+a{text-decoration: none;}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+}
+
+h1{
+    font-family:'Rubik', sans-serif;
+    font-weight: 900;
+    color: #ffdde0;
+    font-size: 20pt;
+}
+
+h2{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 800;
+    color:#49156a;
+    font-size: 20pt;
+}
+
+h3{
+    font-family: 'Rubik', sans-serif;
+    color: #191057;
+    font-size: 18pt;
+}
+
+header{
+    background-color: #ff79ad;
+}
+
+.dflex{ display: flex;
+justify-content: space-between;
+align-items: center;}
+
+.logo{
+    width:280px;
+}
+
+nav{
+    width: 500px;
+    font-family: 'Rubik', sans-serif;
+}
+
+nav ul li a{font-size: 15pt;}
+
+header,section,footer {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+article h2 {padding-top: 3%}
+
+section h3{
+    margin-top: 1px;
+}
+
+#sobre-nosotras{
+    background-image: url(img/fondo.jpg);
+    background-repeat: repeat;
+    background-position: 0px 0px;
+    background-attachment: scroll;
+    background-color: #ffdde0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color:black;
+        }
+
+    
+#servicios{
+    background-color: #f792f0;
+    font-size: 15pt;
+    color:#5f41e9
+}
+#portfolio{
+    background-image: url(img/fondo.jpg);
+    background-repeat: repeat;
+    background-position: 0px 0px;
+    background-attachment: scroll;
+    background-color: #ffdde0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#portfolio p{ font-size: 15pt; color:black}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    width: 600px;      
+    margin: 0;
+    }
+    
+    .div1 { grid-area: 1 / 2 / NaN / NaN; }
+
+footer{
+    background-color: #ff79ad;
+    font-size: 15pt;
+    color: #ffdde0;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 250px;
+}
+
+footer strong{font-size: 18pt;}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+#contacto {
+    background-color: #f792f0;
+}
+
+#contacto p {font-size: 15pt; color: #5f41e9;}
+
+#galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;    
+    margin: 0;
+}
+
+figcaption { color: black; font-weight: bolder;}
+
+#programas ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;    
+    margin: 0px;
+    width: 600px;
+}
+
+#ofrecemos ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;    
+    margin: 0px;
+    width: 600px;
+}
+
+em {color: #913f8b;}
+
+#sobre-nosotras strong {color: #913f8b;}
+
+footer strong {color: #49156a;}
+
+#magali div { display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;    
+    margin: 0px;
+    width: 700px;}
+
+#malena div { display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;    
+    margin: 0px;
+    width: 700px;}
+
+nav a {color: #ffdde0}
